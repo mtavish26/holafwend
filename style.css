@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:rgb(255, 255, 255);
+	background-image: url(https://cdn.pixabay.com/photo/2015/11/02/11/38/sky-1018268_960_720.jpg);
+}
+.nadhiva,.yes,.no{padding-top: 15%;
+		
+		}
+.nadhiva span{color:rgb(255, 0, 183);}
+h1{font-size: 35px;margin-bottom: 360px;}
+h2{font-size: 72px;margin-bottom: 20px;}
+h3{font-size: 40px;margin-bottom: 100px;}
+h5{font-size: 100px;margin-bottom: 70px;}
+a{font-size: 24px;text-decoration: none;padding: 5px 10px;
+	margin-top: 20px;border:3px solid #ddd; border-radius: 10px;}
+#no{color:red; background: #eee;margin-right: 50px;}
+#yes{color:green;background: #eee;}
+
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.active{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.pesan p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.Tencuu{
+	background-color: #B3FAE9;
+
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
